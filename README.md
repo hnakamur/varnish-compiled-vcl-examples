@@ -6,7 +6,7 @@ Example vcl files and compiled C files.
 Compilation was done with the command like:
 
 ```
-varnishd -d -f virtualhost_backend.vcl -C > virtualhost_backend.c 2>&1
+varnishd -C -f virtualhost_backend.vcl > virtualhost_backend.c 2>&1
 ```
 
 ## Example vcls
